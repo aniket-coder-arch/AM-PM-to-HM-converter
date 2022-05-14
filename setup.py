@@ -23,7 +23,7 @@ setup(
     ],
     packages=["AM_PM_to_HM_converter"],
     include_package_data=True,
-    install_requires=["requests"],
+    install_requires=["nltk"],
     entry_points={
         "console_scripts": [
             "AM-PM-to-HM-converter=AM_PM_to_HM_converter.AM_PM_to_24:converter",
